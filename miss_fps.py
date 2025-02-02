@@ -10,6 +10,8 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 INTERVAL = 5  # seconds between readings
 SCREEN_REGION = (0, 0, 90, 40)  # top left corner (x, y, w, h)
+
+# Only read numbers if they're in this range - prevents audio output if any other text ends up in the parsed area
 MIN_FPS = 1
 MAX_FPS = 1000
 
