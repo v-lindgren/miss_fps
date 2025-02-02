@@ -8,7 +8,6 @@ import pyttsx3
 # Path to Tesseract-OCR executable, downloaded from https://github.com/UB-Mannheim/tesseract/wiki
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-# Constants should be in UPPERCASE
 INTERVAL = 5  # seconds between readings
 SCREEN_REGION = (0, 0, 90, 40)  # top left corner (x, y, w, h)
 MIN_FPS = 1
