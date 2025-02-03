@@ -9,7 +9,7 @@ The name is a play on "Fröken Ur" (Miss Time) - https://www.ri.se/en/expertise-
 1. Install the python requirements:
 
 ```powershell
-py -m pip install requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 2. Download Tesseract from https://github.com/UB-Mannheim/tesseract/wiki and install it. Ensure that the tesseract_cmd variable in the code points to the correct path. 
